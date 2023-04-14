@@ -1,0 +1,24 @@
+.item-list {
+    /* 测试样式 */
+    /* background-color: pink; */
+
+    /* 定位 */
+    position: absolute;
+    top: 120rem;
+
+    /* 调整滚动条样式 */
+    padding-bottom: 130rem;
+    height: calc(100vh - 130rem);
+    width: 100%;
+
+    overflow: scroll;
+}
+
+.item-list h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(188, 188, 188);
+    font-size: 26rem;
+}

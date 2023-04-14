@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  touch-action: pan-y;
+}
+
+html{
+  font-size: calc(100vw / 750);
+}
+
+
+#app {
+  position: relative;
+  height: 100vh;
+}
+
